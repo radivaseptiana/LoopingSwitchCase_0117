@@ -26,15 +26,13 @@ int main (){
                 cin >> panjang;
                 cout << "Masukkan Lebar :";
                 cin >> lebar;
-                cout << "Luas Persegi Panjang = "
-                << luasPersegiPanjang(panjang,lebar) << endl;
+                cout << "Luas Persegi Panjang = " << luasPersegiPanjang(panjang,lebar) << endl;
                 break;
             case 2 :
                 cout << "Menghitung Luas Lingkaran " << endl;
                 cout << "Masukkan Jari - Jari = ";
                 cin >> jejari;
-                cout << "Luas Lingkaran ="
-                << luasLingkaran(jejari) << endl;
+                cout << "Luas Lingkaran =" << luasLingkaran(jejari) << endl;
                 break;
             case 3 :
                 cout << "Terima Kasih! 😁" << endl;
