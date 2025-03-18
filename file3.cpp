@@ -37,6 +37,7 @@ int main (){
                 << luasLingkaran(jejari) << endl;
                 break;
             case 3 :
+                cout << "Terima Kasih! 😁" << endl;
                 break;
             default :
                 cout << "Pilihan anda salah" << endl;
